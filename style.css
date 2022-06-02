@@ -38,3 +38,9 @@ body {
   top: 0%;
   right: 0%;
 }
+
+.answer {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
