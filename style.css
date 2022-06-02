@@ -44,3 +44,8 @@ body {
   height: 50%;
   text-align: center;
 }
+
+.special {
+  border: none;
+  font-size: 2rem;
+}
