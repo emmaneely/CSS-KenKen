@@ -5,3 +5,10 @@
 html {
   font-size: 10px;
 }
+
+body {
+  width: 80%;
+  height: 80%;
+  margin: 30px auto;
+  background-color: #fff;
+}
