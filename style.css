@@ -24,3 +24,7 @@ body {
   font-size: 2rem;
   background-color: white;
 }
+
+#box3, #box7, #box10, #box11, #box12, #box15 {
+  border-left: 0.5rem solid black;
+}
