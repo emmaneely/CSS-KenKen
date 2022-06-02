@@ -11,18 +11,23 @@ body {
   height: 80%;
   margin: 30px auto;
   background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  width: 600px;
+  height: 600px;
+  border: 0.5rem solid black;
 }
 
 .grid-items {
   border: 0.1rem solid gray;
   font-size: 2rem;
   background-color: white;
+  position: relative;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
@@ -36,7 +41,7 @@ body {
 .prompt {
   position: absolute;
   top: 0%;
-  right: 0%;
+  left: 0%;
 }
 
 .answer {
@@ -48,4 +53,10 @@ body {
 .special {
   border: none;
   font-size: 2rem;
+}
+
+@media screen and (min-width: 475px) {
+  html {
+    font-size: 16px;
+  }
 }
